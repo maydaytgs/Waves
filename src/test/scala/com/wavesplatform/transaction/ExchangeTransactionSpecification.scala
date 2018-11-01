@@ -2,6 +2,7 @@ package com.wavesplatform.transaction
 
 import com.wavesplatform.OrderOps._
 import com.wavesplatform.account.{PrivateKeyAccount, PublicKeyAccount}
+import com.wavesplatform.api.http.assets.SignedExchangeRequest
 import com.wavesplatform.state.{ByteStr, EitherExt2}
 import com.wavesplatform.transaction.ValidationError.OrderValidationError
 import com.wavesplatform.transaction.assets.exchange.{Order, _}
